@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Image map Example</title>
-    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <title>Task Tracker</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body style="text-align: center;">
-    <h1 style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;"> This page displays an example of image map.</h1>
-    <img src = "https://www.w3schools.com/html/workplace.jpg" alt = "image of a computer" usemap="#imagemap">
-    
-    <map name = "imagemap">
-        <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html">
-  <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
-  <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.html">
-    </map> 
-    <!-- <script src="script.js"></script> -->
+  <body>
+    <div class="container">
+      <h1>Task Tracker</h1>
+      <ul id="tasks">
+        <li>Task 1</li>
+        <li>Task 2</li>
+        <li>Task 3</li>
+        <li>Task 4</li>
+      </ul>
+    </div>
+
+    <script src="script.js"></script>
   </body>
 </html>
